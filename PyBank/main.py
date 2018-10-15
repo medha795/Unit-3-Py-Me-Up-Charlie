@@ -64,7 +64,11 @@ with open(csvpath, newline = '') as csvfile:
     print(greatest_inc_month, max(changes))
     print(greatest_dec_month, min(changes))
 
+<<<<<<< HEAD
+    # writing output files
+=======
     
+>>>>>>> de204e9898626d9e3a7f41e0238b32c04ea7bfeb
     PyBank = open("output.txt","w+")
     PyBank.write("Financial Analysis") 
     PyBank.write('\n' +"Total Months" + str(total_months)) 
